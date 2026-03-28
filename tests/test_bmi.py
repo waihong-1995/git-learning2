@@ -1,5 +1,4 @@
-from main import calculate_bmi, classify_bmi
-
+from app.bmi import calculate_bmi, classify_bmi
 
 def test_bmi_value():
     assert round(calculate_bmi(70, 170), 2) == 24.22
